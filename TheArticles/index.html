@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>The Articles - Detroit Ska</title>
+		<meta charset="utf-8">
+		<!--Link for local CSS and JavaScript File-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script type="text/javascript" src="scripts/script.js"></script>
+		<!--For Responsive Screens - Bootstrap-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--jQuery CDN Link-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!--Bootstrap CND Link-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<!--Google Font API-->
+  		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+		</head>
+	<body id="The Articles" data-spy="scroll" data-target=".navbar" data-offset="50">
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="6VdvAOfV"></script>
+
+
+		<!--Navigational Bar-->
+		<nav id="black-navigation-bar" class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#Articles-carousel"><span class="logo-band">The Articles</span></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#Articles-carousel">HOME</a></li>
+						<li><a href="#about-band">MEET THE BAND</a></li>
+						<li><a href="#TheAlbum">THE NEW ALBUM</a></li>
+                        <li><a href="#music">MUSIC</a></li>
+						<!-- <li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#music">Music</a></li>
+								<li><a href="#merchandise">Merchandise</a></li>
+								<li><a href="#contact">Fan Mail</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-search"></span>
+							</a>
+						</li> -->
+					</ul>
+				</div>	
+			</div>	
+		</nav>
+        
+        
+		<!--Header Band Carousel Photos-->
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class='col-sm-6'>
+            <div id="Articles-carousel" class="carousel slide" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#Articles-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Articles-carousel" data-slide-to="1"></li>
+                    <!-- <li data-target="Articles-carousel" data-slide-to="2"></li> -->
+                </ol>
+                <!--Wrapper-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/FrontCover.jpg" alt="Front Cover" >
+                        <!-- <div class="carousel-caption">
+                            <h2>The Articles</h2>
+                        </div> -->
+                    </div>
+                    <div class="item">
+                        <img src="images/AlbumTestBackCover.jpg" alt="Back Cover" >
+                        <!-- <div class="carousel-caption">
+                            <h3>The Articles</h3>
+                        </div> -->
+                    </div>
+                    
+                </div>
+                
+                <!--Carousel Controls-->
+                <a class="left carousel-control" href="#Articles-carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#Articles-carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        
+		<!--About The Band-->
+		<div id="about-band" class="container text-center">
+			<h3>Meet The Articles</h3>
+			<p>The Articles are (were) a Detroit-area ska/jazz fusion band who mix covers of jazz standards, as well as ska classics, with their originals. 
+                The group was founded by brothers Derek (trumpet) and Paul Phelps (guitar), with the remainder of the original lineup consisting of alto saxophonist Mike Rehfus, 
+                tenor saxophonist Sean Stillwell, bassist Jim Hohner, and drummer Dan Margulis. 
+                Their debut album, Flip F'Real, was released in 1997 by Moon Ska </p>
+            <p>After several lineup changes, the updated group recorded a new album of all original material in March of 2001. Unfortunately, the group disbanded before the album saw a proper release.</p>
+            <p>After 20 long years, The Articles are excited to announce that this album will soon be available on all streaming services! Titled "Action Claw vs. Gorilla Grip", 
+                the recordings show the evolution of the group's music, and offer a glimpse of what might have been... </p>
+			<br>
+			<h3>The Members</h3>
+			<br>
+			<div class="row">
+				<div class="col-sm-4">
+					<p class="text-center band-members" ><strong>Derek Phelps</strong></p>
+					<a href="#trumpet" data-toggle="collapse">
+						<img src="images/DerekBeard.jpg" class="img-circle person" alt="Derek Phelps" width="255" height="255">
+					</a>
+					<div id="trumpet" class="collapse">
+						<p>Trumpet</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<p class="text-center band-members"><strong>Mike Rehfus</strong></p>
+					<a href="#sax" data-toggle="collapse">
+						<img src="images/Mike.jpg" class="img-circle person" alt="Mike Rehfus" width="255" height="255">
+					</a>
+					<div id="sax" class="collapse">
+						<p>Alto Saxophone</p>
+						<p>Tenor Saxophone</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<p class="text-center band-members"><strong>Jeff Cantwell</strong></p>
+					<a href="#trombone" data-toggle="collapse">
+						<img src="images/DefinitelyJeff.jpg" class="img-circle person" alt="Jeff Cantwell" width="255" height="255">
+					</a>
+					<div id="trombone" class="collapse">
+						<p>Trombone</p>
+					</div>
+				</div>
+            </div>
+            <br /><br /><br />
+
+            <div class="row">
+				<div class="col-sm-3">
+					<p class="text-center band-members"><strong>Dan Margulis</strong></p>
+					<a href="#drummer" data-toggle="collapse">
+						<img src="images/Dan.jpg" class="img-circle person" alt="Dan Margulis" width="255" height="255">
+					</a>
+					<div id="drummer" class="collapse">
+						<p>Drummer/Percussion</p>
+					</div>
+				</div>
+                <div class="col-sm-3">
+					<p class="text-center band-members"><strong>Jason Smith</strong></p>
+					<a href="#bass" data-toggle="collapse">
+						<img src="images/Jason.jpg" class="img-circle person" alt="Jason Smith" width="255" height="255">
+					</a>
+					<div id="bass" class="collapse">
+						<p>Bass Guitar</p>
+					</div>
+				</div>
+                <div class="col-sm-3">
+					<p class="text-center band-members"><strong>Ryan Mackstaller</strong></p>
+					<a href="#guitar" data-toggle="collapse">
+						<img src="images/ForSureRyan.jpg" class="img-circle person" alt="Ryan Mackstaller" width="255" height="255">
+					</a>
+					<div id="guitar" class="collapse">
+						<p>Guitar</p>
+					</div>
+				</div>
+                <div class="col-sm-3">
+					<p class="text-center band-members"><strong>Bob Mervak</strong></p>
+					<a href="#keys" data-toggle="collapse">
+						<img src="images/Bob.jpg" class="img-circle person" alt="Bob Mervak" width="255" height="255">
+					</a>
+					<div id="keys" class="collapse">
+						<p>Piano</p>
+                        <p>Electric Keys</p>
+                        <p>Organ</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Albums-->
+        
+            <div id="home" class="container">
+                <h2 class="text-center" id="TheAlbum">The New Album</h2>  
+                <h3>Action Claw vs. Gorilla Grip</h3>
+                <p>Track Listing:</p>
+              <ol>
+                        <li>Sophist</li>
+                        <li>Frantic</li>
+                        <li>Whatsamatta</li>
+                        <li>Jetta Girl</li>
+                        <li>Outnumbered</li>
+                        <li>Hand Me Down</li>
+                        <li>Heavy</li>
+                        <li>Hard To Get</li>
+                        <li>Libido Lounge</li>
+                        <li>Insomnia</li>
+                        <li>Slip N Slide</li>
+                </ol>
+			</div>
+			  	
+			<br>		
+        
+        <!--Music-->
+        <div id="music" class="container text-center">
+			<h3>The Sound of The Articles</h3>
+            <h2>Spotify</h2>
+            <iframe src="https://open.spotify.com/embed/album/40itTTVmILK2ZMpx2XjsDl" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <br><br>
+            <h2>Bandcamp</h2>
+			<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3015348759/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://thedonaldtrumpets.bandcamp.com/album/very-stable-genius">Very Stable Genius by The Donald Trumpets</a></iframe>
+		</div>
+
+		<!-- Contact Section - Done -->
+		<div id="contact" class="container" style="margin-bottom: 100;"> 
+			<h3 class="text-center">Contact</h3>
+            
+
+			<div class="row">
+				<div class="col-md-12">
+					<p>Fan? Drop a note.</p>
+                    <span class="glyphicon glyphicon-envelope"></span>&nbsp;<a href = "mailto: ArticlesDetroit@gmail.com">ArticlesDetroit@gmail.com</a>
+
+				</div>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="p3yl8XTS"></script>
+				<div class="fb-page" data-href="https://www.facebook.com/the-Articles-107540194759983" data-tabs="timeline" data-width="" data-height="500" data-small-header="false" 
+                    data-adapt-container-width="true"  data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/the-Articles-107540194759983" 
+                    class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/the-Articles-107540194759983">the Articles</a></blockquote></div>
+			</div>
+        </div>
+       
+			
+		<!-- Footer - Done-->
+		<footer class="text-center">
+			<a class="up-arrow" href="#Articles-carousel" data-toggle="tooltip" title="TO TOP">
+				<span class="glyphicon glyphicon-chevron-up"></span>
+			</a>
+			<br>
+			<br>
+			
+		</footer>
+	</body>
+</html>
+
